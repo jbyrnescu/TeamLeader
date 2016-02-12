@@ -1,0 +1,1 @@
+find . -maxdepth 1 -exec svn copy https://10.0.0.6/svn/TeamLeader/\{\}  https://10.0.0.6/svn/TeamLeader/tags/release-1.2 -m "tagging before removing logs" \;

@@ -1,0 +1,1 @@
+sed -i .bak -e 's/android:background="@drawable\/linear_layout"/style="@style\/LinearLayoutStyle"/' $1

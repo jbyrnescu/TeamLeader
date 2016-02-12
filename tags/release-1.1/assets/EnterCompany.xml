@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="EnterCompanyFields">
+        <item name="name" >Name</item>
+        <item name="emailAddress">Email Address</item>
+        <item name="telephoneNumber">Telephone Number</item>
+        <item name="country">Country</item>
+        <item name="zipcode">Zip Code</item>
+        <item name="city">City</item>
+        <item name="street">Street</item>
+        <item name="number">Number</item>
+        <item name="taxId">Tax Id</item>
+        <item name="accountManagerId" >Account Manager Id</item>
+        <item name="language">Language</item>
+    </string-array>
+</resources>

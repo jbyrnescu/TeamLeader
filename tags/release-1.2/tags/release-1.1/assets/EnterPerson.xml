@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="EnterPersonFields">
+        <item name="name" >Name</item>
+        <item name="surname" >Surname</item>
+        <item name="emailAddress" >Email Address</item>
+        <item name="telephoneNumber" >Telephone Number</item>
+        <item name="country" >Country</item>
+        <item name="zipcode" >Zip Code</item>
+        <item name="city" >City</item>
+        <item name="street" >Street</item>
+        <item name="number" >Number</item>
+        <item name="gender" >Gender</item>
+        <item name="dob" >DOB</item>
+        <item name="company" >Company</item>
+        <item name="mobilePhoneNumber" >Mobile Phone Number</item>
+        <item name="language" >Language</item>
+    </string-array>
+</resources>

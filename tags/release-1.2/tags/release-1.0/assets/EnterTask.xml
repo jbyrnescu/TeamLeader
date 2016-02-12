@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<resources>
+
+    <string-array name="EnterTaskFields">
+        <item name="description">Description</item>
+        <item name="startDate">Start Date/Time</item>
+        <item name="endDate">End Date/Time</item>
+        <item name="workerId">Contact</item>
+        <item name="taskTypeId">Task Type</item>
+        <item name="billTo">Bill To</item>
+    </string-array>
+
+</resources>

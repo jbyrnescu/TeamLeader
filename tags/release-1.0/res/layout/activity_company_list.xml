@@ -1,0 +1,48 @@
+<LinearLayout android:background="@drawable/linear_layout" xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/EnterName"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Search" 
+            android:onClick="listCompanies" />
+
+    </LinearLayout>
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:baselineAligned="false">
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

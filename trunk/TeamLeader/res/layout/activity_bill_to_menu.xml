@@ -1,0 +1,42 @@
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/LinearLayoutStyle"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        style="@style/LinearLayoutStyle"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="listContacts"
+            android:text="@string/Contact"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        style="@style/LinearLayoutStyle"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="listCompanies"
+            android:text="@string/Company"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

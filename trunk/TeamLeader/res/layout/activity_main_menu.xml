@@ -1,0 +1,52 @@
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<LinearLayout style="@style/LinearLayoutStyle" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical" 
+        android:layout_weight=".333" >
+
+        <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CRM" 
+            android:onClick="launchCRMMenu" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal|center_vertical"  
+        android:layout_weight=".333" >
+
+        <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TaskEntry" 
+            android:onClick="launchTaskMainMenu" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal|center_vertical"  
+        android:layout_weight=".333" >
+
+        <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Invoices"
+            android:onClick="listTasks" />
+
+    </LinearLayout>
+
+</LinearLayout>

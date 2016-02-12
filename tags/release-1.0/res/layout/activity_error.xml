@@ -1,0 +1,13 @@
+<LinearLayout android:background="@drawable/linear_layout" xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<resources>
+
+    <string name="app_name">TeamLeader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Login">Login</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="Group">Group</string>
+    <string name="APISecret">API Secret</string>
+    <string name="Commit">Commit</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="CRM">Relationship Managment</string>
+    <string name="Invoices">Invoices</string>
+    <string name="TaskEntry">Task Entry</string>
+    <string name="title_activity_crmmain_menu">CRM Main Menu</string>
+    <string name="AddCompany">Add Company</string>
+    <string name="ListCompanies">List Companies</string>
+    <string name="AddPerson">Add Person</string>
+    <string name="ListPeople">List People</string>
+    <string name="title_activity_people_list">People List</string>
+    <string name="EnterName">Enter name to search for</string>
+    <string name="Search">Search</string>
+    <string name="title_activity_company_list">Company List</string>
+    <string name="title_activity_enter_person">Enter Person</string>
+
+    <string-array name="EnterPersonFields">
+        <item name="name">Name</item>
+        <item name="surname">Surname</item>
+        <item name="emailAddress">Email Address</item>
+        <item name="telephoneNumber">Telephone Number</item>
+        <item name="country">Country</item>
+        <item name="zipcode">Zip Code</item>
+        <item name="city">City</item>
+        <item name="street">Street</item>
+        <item name="number">Number</item>
+        <item name="gender">Gender</item>
+        <item name="dob">DOB</item>
+        <item name="company">Company</item>
+        <item name="mobilePhoneNumber">Mobile Phone Number</item>
+        <item name="language">Language</item>
+    </string-array>
+
+    <string name="title_activity_enter_company">Enter Company</string>
+    <string name="LinkContact">Link Contact</string>
+    <string name="LinkCompany">Link Company</string>
+
+    <string-array name="EnterCompanyFields">
+        <item name="name">Name</item>
+        <item name="emailAddress">Email Address</item>
+        <item name="telephoneNumber">Telephone Number</item>
+        <item name="country">Country</item>
+        <item name="zipcode">Zip Code</item>
+        <item name="city">City</item>
+        <item name="street">Street</item>
+        <item name="number">Number</item>
+        <item name="taxId">Tax Id</item>
+        <item name="accountManagerId">Account Manager Id</item>
+        <item name="language">Language</item>
+    </string-array>
+
+    <string name="title_activity_task_main_menu">Task Main Menu</string>
+    <string name="CreateTask">Create Task</string>
+    <string name="title_activity_enter_task">Enter Task</string>
+    <string name="StartDateTime">Start Date/Time</string>
+    <string name="EndDateTime">End Date/Time</string>
+    <string name="Contact">Contact</string>
+    <string name="TaskType">Task Type</string>
+    <string name="Company">Company</string>
+    <string name="Calendar">Calendar</string>
+    <string name="ListTasks">List Tasks</string>
+    <string name="title_activity_list_task_types">Task Types</string>
+    <string name="EnterTaskType">Enter task type to search for</string>
+    <string name="title_activity_create_invoice">Create Invoice</string>
+    <string name="CreateInvoice">Create Invoice</string>
+    <string name="title_activity_error">Error</string>
+    <string name="UpdateCompany">Update Company</string>
+    <string name="UpdatePerson">Update Person</string>
+
+    <string-array name="EnterTaskFields">
+        <item name="description">Description</item>
+        <item name="startDate">Start Date/Time</item>
+        <item name="endDate">End Date/Time</item>
+        <item name="contact">Contact</item>
+        <item name="taskType">Task Type</item>
+        <item name="company">Company</item>
+    </string-array>
+
+    <string name="BillTo">Bill To</string>
+    <string name="ListContacts">List Contacts</string>
+    <string name="title_activity_bill_to_menu">BillToMenu</string>
+    <string name="title_activity_pick_date_time">PickDateTime</string>
+    <string name="title_activity_enter_task_type">EnterTaskType</string>
+    <string name="AddTaskType">Add Task Type</string>
+    <string name="UpdateTaskType">Update Task Type</string>
+
+    <string-array name="EnterTaskTypeFields">
+        <item name="name">Name</item>
+    </string-array>
+
+    <string name="Description">Description</string>
+    <string name="UseCalendarView">Use Calendar View</string>
+    <string name="title_activity_get_user_list">GetUserList</string>
+    <string name="title_activity_task_list_params">TaskListParams</string>
+    <string name="StartDate">Start Date</string>
+    <string name="EndDate">End Date</string>
+
+    <string-array name="TaskListParams">
+        <item name="startDate">Start Date</item>
+        <item name="endDate">End Date</item>
+        <item name="company">Company</item>
+    </string-array>
+
+    <string name="title_activity_task_list">TaskList</string>
+    <string name="ListDepartments">List Departments</string>
+    <string name="SaveAs">Save As</string>
+    <string name="Department">Department</string>
+    <string name="title_activity_list_departments">ListDepartments</string>
+    <string-array name="Department">
+        <item name="id" >id</item>
+        <item name="name" >name</item>
+    </string-array>
+    <string name="DefaultFilename">default.pdf</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<resources>
+
+    <string-array name="Department">
+        <item name="id" >id</item>
+        <item name="name" >name</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,204 @@
+<LinearLayout android:background="@drawable/linear_layout" xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Description" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Description" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/StartDateTime" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/UseCalendarView"
+            android:inputType="date" >
+        </EditText>
+
+        <LinearLayout android:background="@drawable/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+
+            <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getStart"
+                android:text="@string/Calendar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/EndDateTime" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/UseCalendarView"
+            android:inputType="date" >
+        </EditText>
+
+        <LinearLayout android:background="@drawable/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+
+            <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getEnd"
+                android:text="@string/Calendar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Contact" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Contact"
+            android:inputType="textPersonName" />
+
+        <LinearLayout android:background="@drawable/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+
+            <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="linkWorker"
+                android:text="@string/ListPeople" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:onClick="listTaskTypes"
+            android:text="@string/TaskType" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/TaskType" />
+
+        <LinearLayout android:background="@drawable/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+
+            <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="listTaskTypes"
+                android:text="@string/ListTasks" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BillTo" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/BillTo" />
+
+        <LinearLayout android:background="@drawable/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+
+            <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="linkFor"
+                android:text="@string/ListContacts" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:background="@drawable/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <Button android:background="@drawable/button" android:textColor="#FFFFFF"
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="commitTask"
+            android:text="@string/Commit" />
+    </LinearLayout>
+
+</LinearLayout>

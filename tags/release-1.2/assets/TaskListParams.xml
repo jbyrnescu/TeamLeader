@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<resources>
+        <string-array name="TaskListParams">
+        <item name="startDate" >Start Date</item>
+        <item name="endDate" >End Date</item>
+        <item name="company" >Company</item>
+    </string-array>
+</resources>

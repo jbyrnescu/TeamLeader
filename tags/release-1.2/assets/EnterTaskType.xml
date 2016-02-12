@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<resources>
+    
+    <string-array name="EnterTaskTypeFields">
+        <item name="name" >Name</item>
+    </string-array>
+    
+</resources>

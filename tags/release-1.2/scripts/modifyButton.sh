@@ -1,0 +1,1 @@
+sed -i .bak -e 's/<Button/<Button android:background="@drawable\/button" android:textColor="#FFFFFF"/' $1 

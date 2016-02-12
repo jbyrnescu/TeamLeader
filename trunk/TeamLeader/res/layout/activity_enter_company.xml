@@ -1,0 +1,73 @@
+<!-- Copyright (C) 2014 John Charles Byrne Distributed under the terms of GPL.  Please leave this notice intact when copying  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/LinearLayoutStyle"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/LinearLayoutStyle" >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="343dp" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/LinearLayoutStyle" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="linkPerson"
+            android:text="@string/LinkContact"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/LinearLayoutStyle"
+        android:gravity="center_horizontal|top" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="commitCompany"
+            android:text="@string/AddCompany"
+            android:textColor="#FFFFFF" 
+            style="@style/ButtonStyle" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="@string/UpdateCompany"
+            android:textColor="#FFFFFF" 
+            style="@style/ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/jbyrne/Documents/workspaces/android/TeamLeader/trunk/.metadata/.plugins/org.eclipse.jdt.core
+1432947579.index
+638865283.index
+1833298790.index

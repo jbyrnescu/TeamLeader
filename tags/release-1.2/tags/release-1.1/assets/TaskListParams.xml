@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="TaskListParams">
+        <item name="startDate" >Start Date</item>
+        <item name="endDate" >End Date</item>
+        <item name="company" >Company</item>
+    </string-array>
+</resources>
